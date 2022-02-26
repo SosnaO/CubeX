@@ -1,0 +1,17 @@
+.list{
+  border: 2px solid greenyellow;
+}
+.input {
+  white-space: normal;
+  width: 100px;
+}
+
+.btn {
+  margin: 3px;
+  text-decoration: none;
+  width: 90px;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #6495ed;
+}
