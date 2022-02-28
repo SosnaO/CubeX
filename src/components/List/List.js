@@ -13,7 +13,7 @@ const List = () => {
         }}
         // onClick={(e) => addItem(e)}
       >
-        Add Sublist
+        Add 
       </button>
       <input
         className={styles.input}

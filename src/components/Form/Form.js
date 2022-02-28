@@ -1,7 +1,29 @@
 import React from "react";
 import styles from "./Form.module.css";
 import Item from "../Item/Item";
-const Form = (prorps) => {
+const Form = (props) => {
+    // const state = {
+    //     // title: title,
+    //     id: Date.now(),
+    //     sublist: [],
+    // };
+    // const [title, setTitle] = useState("");
+    
+
+    //   console.log("state", state);
+
+
+    // const addItem = useCallback(
+    //     (e) => {
+    //         e.preventDefault();
+    //         console.log(title);
+    //         if (!title) {
+    //             return;
+    //         }
+    //     })
+
+// 
+//  );
   return (
     <div>
       <form className={styles.form}>
@@ -10,6 +32,7 @@ const Form = (prorps) => {
           className={styles.input}
           type="text"
           component="input"
+          //   value={state.title}
           //   value=onChange
           onChange={() => {
             console.log("input");
@@ -20,10 +43,11 @@ const Form = (prorps) => {
         <button
           className={styles.btn}
           type="button"
-          // onClick={(e) => addItem(e)}
-          onClick={() => {
-            console.log("клинкули");
-          }}
+        //   onClick={addItem}
+        //   onClick={(e) => addItem(e)}
+            onClick={() => {
+              console.log("клинкули");
+            }}
         >
           Add
         </button>
